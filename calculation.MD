@@ -4,6 +4,11 @@
 
 https://docs.kernel.org/admin-guide/cgroup-v2.html#:~:text=A%20read%2Dwrite%20two%20value,default%20is%20%22max%20100000%22.
 
+https://github.com/uber-go/automaxprocs/blob/master/internal/cgroups/cgroups2.go
+
+https://octopus.com/blog/kubernetes-pod-cpu-memory
+
+https://stackoverflow.com/questions/45196440/cpupercent-metric-from-docker-stats-vs-cgroups
 
 In cgroup v2, the `cpu.max` parameter sets a limit on the percentage of CPU time a cgroup can use over a period of time. It's a way to control and limit CPU usage for a cgroup. The value you set for `cpu.max` specifies how much CPU time the cgroup can utilize relative to the total available CPU time.
 
