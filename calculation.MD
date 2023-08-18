@@ -10,6 +10,8 @@ https://octopus.com/blog/kubernetes-pod-cpu-memory
 
 https://stackoverflow.com/questions/45196440/cpupercent-metric-from-docker-stats-vs-cgroups
 
+https://github.com/HobbyBear/cmetric/blob/master/stats.go#L52
+
 In cgroup v2, the `cpu.max` parameter sets a limit on the percentage of CPU time a cgroup can use over a period of time. It's a way to control and limit CPU usage for a cgroup. The value you set for `cpu.max` specifies how much CPU time the cgroup can utilize relative to the total available CPU time.
 
 If you want to compare `cpu.max` to CPU clock time, you need to understand how `cpu.max` and the actual CPU usage work in cgroup v2:
